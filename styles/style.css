@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fira Code', monospace !important;
+}
+
+body {
+    background-color: #1d1d1d;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fira Code', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-wrapper {
+    background-color: #313131;
+    height: 5em !important;
+    display: flex;
+}
+
+.nav-wrapper img {
+    margin-left: 3.0em;
+    width: 1.8em;
+    color: #9147FF;
+}
+
+.nav-wrapper span {
+    margin-left: 1em;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    height: 90vh;
+}
+
+.cards {
+    margin-right: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card.small,
+.card.horizontal {
+    background-color: #313131;
+    color: ivory;
+}
+
+.card.small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card.small img {
+    border-radius: 50px;
+}
+
+#card-sobre span {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#card-sobre p {
+    text-align: justify;
+}
+
+#card-social {
+    height: 100%;
+}
+
+#card-social span {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.redes-sociais img {
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
